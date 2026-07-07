@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #ffffff;
+    color: #111111;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hero {
+    min-height: 100vh;
+    padding: 40px 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+    margin-bottom: 42px;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin-bottom: 18px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #555555;
+    margin-bottom: 18px;
+}
+
+.description {
+    font-size: 17px;
+    font-weight: 300;
+    color: #777777;
+    margin-bottom: 42px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+
+    background: #111111;
+    color: #ffffff;
+
+    padding: 15px 42px;
+    border-radius: 50px;
+
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: #333333;
+}
+
+.instagram {
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+.instagram a {
+    color: #111111;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.instagram a:hover {
+    color: #777777;
+    transform: scale(1.15);
+}
+
+.location {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 90px;
+        margin-bottom: 34px;
+    }
+
+    h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 14px 32px;
+        font-size: 12px;
+    }
+
+    .instagram a {
+        font-size: 20px;
+    }
+
+    .location {
+        font-size: 11px;
+    }
+}
